@@ -2,14 +2,12 @@ body {
   background-image: url("bg.jpg");
     }
 
-
 .form-wrap{
   width: 320px; background: #001642; padding: 40px 20px; box-sizing: border-box;
   position: fixed; left: 73%; top: 50%; transform: translate(-50%, -50%);
   opacity: 0.9; filter: alfa(opacity=0.9);
   border-radius: 50px/45px;
 }
-
 h1{
   text-align: center; color:#fff; font-weight: normal;
   -webkit-text-stroke: 0.2px black;
@@ -22,7 +20,23 @@ input{
   font-size: 20px;
 }
 
-input[type="submit"]{background: #001642; border:1 ; cursor: pointer; color: #fff;
+input[type="submit"]{
+  background: #001642; border:1 ; cursor: pointer; color: #fff;  width: 150px;
+    position:relative;
+    left: 23%;
+    display: inline-block;
 }
-input[type="submit"]:hover{background: #3377ff; transition: .3s;}
-::placeholder{color: #fff;}
+input[type="submit"]:hover{
+background: #3377ff; transition: .3s;
+}
+input[type="contact"]{
+  background: #001642; border:1 ; cursor: pointer; color: #fff; width: 150px;
+    position:relative;
+    left: 23%;
+}
+input[type="contact"]:hover{
+background: #3377ff; transition: .3s;
+}
+::placeholder{
+color: #fff;
+}
