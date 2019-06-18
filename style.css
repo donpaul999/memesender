@@ -1,6 +1,8 @@
 body {
   background-image: url("bg.jpg");
     }
+
+
 .form-wrap{
   width: 320px; background: #001642; padding: 40px 20px; box-sizing: border-box;
   position: fixed; left: 73%; top: 50%; transform: translate(-50%, -50%);
@@ -19,6 +21,7 @@ input{
   box-sizing: border-box; margin-bottom: 20px;
   font-size: 20px;
 }
+
 input[type="submit"]{background: #001642; border:1 ; cursor: pointer; color: #fff;
 }
 input[type="submit"]:hover{background: #3377ff; transition: .3s;}
