@@ -6,13 +6,9 @@
 <html>
   <head>
       <title> Memes Newsletter </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="shortcut icon" type="image/x-icon" href="iconita.png" />
       <link rel="stylesheet" type="text/css" href="style.css">
-      <style>
-            img[alt="www.000webhost.com"] {
-            display: none !important;
-        }
-      </style>
   </head>
   <body>
     <div class="form-wrap">
