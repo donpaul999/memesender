@@ -5,6 +5,11 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+    img[alt="www.000webhost.com"] {
+        display: none !important;
+    }
+    </style>
       <title> Memes Newsletter </title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="shortcut icon" type="image/x-icon" href="iconita.png" />
