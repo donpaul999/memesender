@@ -8,6 +8,11 @@
       <title> Memes Newsletter </title>
       <link rel="shortcut icon" type="image/x-icon" href="iconita.png" />
       <link rel="stylesheet" type="text/css" href="style.css">
+      <style>
+            img[alt="www.000webhost.com"] {
+            display: none !important;
+        }
+      </style>
   </head>
   <body>
     <div class="form-wrap">
