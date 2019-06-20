@@ -1,5 +1,5 @@
 <?php
-$conectare = mysqli_connect("localhost", "id8253802_my_user","123456789", "id8253802_my_db");
+$conectare = mysqli_connect("localhost", "(username)","(password)", "(db_name)");
 
 if(!$conectare)
  {
